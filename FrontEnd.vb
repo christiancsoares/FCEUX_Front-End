@@ -102,7 +102,7 @@ Public Class FrontEnd
     End Sub
 
     Private Sub CreditsLabel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CreditsLabel.Click
-        ' gameherobrazil.net
+        Process.Start("https://gameherobrazil")
     End Sub
 
     Private Sub CreditsLabel_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs) Handles CreditsLabel.MouseHover
